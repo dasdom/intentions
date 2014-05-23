@@ -10,14 +10,22 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "ViewController2.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
+    
     ViewController *viewController = [[ViewController alloc] init];
-    self.window.rootViewController = viewController;
+    viewController.title = @"1";
+    
+    ViewController2 *viewController2 = [[ViewController2 alloc] init];
+    viewController2.title = @"2";
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[viewController, viewController2];
+    self.window.rootViewController = tabBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

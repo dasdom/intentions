@@ -28,6 +28,8 @@
 		83C0D94A18D5F44A0052E3B3 /* ObserveIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94918D5F44A0052E3B3 /* ObserveIntention.m */; };
 		83C0D94D18D5F6F40052E3B3 /* ReverseIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94C18D5F6F40052E3B3 /* ReverseIntention.m */; };
 		F2DDC818192E67A8001935D0 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDC817192E67A8001935D0 /* View.m */; };
+		F2DDC81B192F4A28001935D0 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDC81A192F4A28001935D0 /* ViewController2.m */; };
+		F2DDC81E192F4A3A001935D0 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDC81D192F4A3A001935D0 /* View2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,10 @@
 		83C0D94C18D5F6F40052E3B3 /* ReverseIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseIntention.m; sourceTree = "<group>"; };
 		F2DDC816192E67A8001935D0 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		F2DDC817192E67A8001935D0 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		F2DDC819192F4A28001935D0 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		F2DDC81A192F4A28001935D0 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		F2DDC81C192F4A3A001935D0 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		F2DDC81D192F4A3A001935D0 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,10 @@
 				83C0D91718D5EA2E0052E3B3 /* ViewController.m */,
 				F2DDC816192E67A8001935D0 /* View.h */,
 				F2DDC817192E67A8001935D0 /* View.m */,
+				F2DDC819192F4A28001935D0 /* ViewController2.h */,
+				F2DDC81A192F4A28001935D0 /* ViewController2.m */,
+				F2DDC81C192F4A3A001935D0 /* View2.h */,
+				F2DDC81D192F4A3A001935D0 /* View2.m */,
 				83C0D93918D5EB2C0052E3B3 /* NSString+Reverse.h */,
 				83C0D93A18D5EB2C0052E3B3 /* NSString+Reverse.m */,
 				83C0D93F18D5EE590052E3B3 /* Person.h */,
@@ -297,7 +307,9 @@
 				83C0D93B18D5EB2C0052E3B3 /* NSString+Reverse.m in Sources */,
 				83C0D94A18D5F44A0052E3B3 /* ObserveIntention.m in Sources */,
 				83C0D94D18D5F6F40052E3B3 /* ReverseIntention.m in Sources */,
+				F2DDC81E192F4A3A001935D0 /* View2.m in Sources */,
 				83C0D94118D5EE590052E3B3 /* Person.m in Sources */,
+				F2DDC81B192F4A28001935D0 /* ViewController2.m in Sources */,
 				83C0D94418D5EE830052E3B3 /* DismissOnEnterIntention.m in Sources */,
 				83C0D94718D5F39C0052E3B3 /* ModelContainer.m in Sources */,
 				83C0D91218D5EA2E0052E3B3 /* AppDelegate.m in Sources */,

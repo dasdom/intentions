@@ -14,9 +14,7 @@
 #import "View.h"
 
 @interface ViewController ()
-
 @property (strong, nonatomic) ModelContainer* modelContainer;
-
 @end
 
 @implementation ViewController
